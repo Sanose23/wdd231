@@ -1,7 +1,7 @@
-const menuButton = document.getElementById('menu');
-const nav = document.getElementById('nav');
+const mainnav = document.querySelector('#animateMe');
+const hambutton = document.querySelector('#menu');
 
-
-menuButton.addEventListener('click', () => {
-nav.classList.toggle('show');
+hambutton.addEventListener('click', () => {
+    mainnav.classList.toggle('open');
+    hambutton.textContent = hambutton.textContent === '☰' ? '❌' : '☰';
 });

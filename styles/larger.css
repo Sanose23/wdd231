@@ -1,35 +1,13 @@
 @media (min-width: 768px) {
+    #menu { display: none; }
+    nav { display: flex !important; flex-direction: row; justify-content: center; }
+    nav a { border-bottom: none; width: 150px; }
 
-  .logo {
-    height: 60px;
-  }
-
-  #menu {
-    display: none;
-  }
-
-  nav {
-    display: flex !important;
-    flex-direction: row;
-    justify-content: center;
-    background: none;
-    position: static;
-    gap: 2rem;
-  }
-
-  main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    padding: 2rem 4rem;
-  }
-
-  main h1 {
-    grid-column: 1 / -1;
-    margin-bottom: 1rem;
-  }
-
-  section {
-    margin-bottom: 0;
-  }
+    .top-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+    
+    #course-list { 
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+        gap: 15px;
+    }
 }

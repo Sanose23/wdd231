@@ -1,116 +1,125 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  line-height: 1.6;
-  background: #f2f5f8;
-  color: #111827;
+/* Base styles */
+body { 
+    font-family: 'Roboto', sans-serif; 
+    margin: 0; 
+    background-color: #fcfcfc; /* Lighter background for better card contrast */
+    color: #000000; /* Pure black for maximum readability */
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background: #1f2933;
-  color: white;
+header { 
+    background-color: #000000; /* Pure black background for white text */
+    color: #ffffff; 
+    padding: 1rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
 }
 
-.branding {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+.logo { width: 50px; height: auto; }
+
+/* Navigation */
+#menu { 
+    font-size: 2.5rem; 
+    background: none; 
+    border: none; 
+    color: #ffffff; 
+    cursor: pointer; 
 }
 
-.logo {
-  height: 40px;
-  width: auto;
+nav { 
+    display: none; 
+    background-color: #1a1a1a; /* Darker background for nav links */
+    flex-direction: column; 
 }
 
-#menu {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
+nav.open { display: flex; }
+
+nav a { 
+    color: #ffffff; 
+    padding: 1rem; 
+    text-decoration: none; 
+    text-align: center; 
+    border-bottom: 1px solid #444; 
 }
 
-nav {
-  display: none;
-  flex-direction: column;
-  background: #111827;
+/* Wayfinding: Using a high-contrast background and dark text */
+nav a.active { 
+    background-color: #ffeb3b; /* High contrast yellow */
+    color: #000000; 
+    font-weight: bold;
 }
 
-nav.show {
-  display: flex;
+/* Main Layout */
+main { padding: 1.5rem; }
+
+.card { 
+    background-color: #ffffff; 
+    margin-bottom: 1.5rem; 
+    padding: 1.5rem; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Deeper shadow for better separation */
+    border: 1px solid #ddd;
 }
 
-nav a {
-  color: rgb(252, 253, 255);
-  padding: 0.75rem 1rem;
-  text-decoration: none;
+.profile-img { 
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    display: block; 
+    margin: auto; 
 }
 
-nav a:hover,
-nav a.active {
-  background: #374151;
+/* Course Buttons & Cards */
+.filters { 
+    display: flex; 
+    gap: 15px; 
+    margin-bottom: 1.5rem; 
 }
 
-main {
-  padding: 1rem 2rem;
-}
-
-section {
-  margin-bottom: 2rem;
-  background: rgb(248, 247, 247);
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.filters button {
-  margin-right: 0.5rem;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background: #111827;
-  color: white;
-  font-weight: bold;
+.filters button { 
+    flex: 1; 
+    padding: 12px; 
+    background-color: #000000; /* High contrast buttons */
+    color: #ffffff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-weight: bold;
 }
 
 .filters button:hover {
-  background: #0f2922;
+    background-color: #333333;
+    text-decoration: underline;
 }
 
-.course {
-  padding: 1rem;
-  margin: 0.5rem 0;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+#course-list { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px; 
 }
 
-.course.completed {
-  background: #ffffff;
-  border-color: #10b981;
+/* Default Course Card: High contrast dark text on light grey */
+.course-card { 
+    padding: 1.2rem; 
+    background-color: #eeeeee; 
+    color: #000000; 
+    border-radius: 5px; 
+    text-align: center; 
+    font-weight: bold; 
+    border: 1px solid #757575; /* Visible border for accessibility */
 }
 
-footer {
-  text-align: center;
-  padding: 1.5rem 2rem;
-  background: #1f2933;
-  color: white;
+/* Completed Course: Rubric requires a clearly marked, different style */
+.course-card.completed { 
+    background-color: #004d40; /* Very dark green background */
+    color: #ffffff; /* White text for contrast */
+    border-left: 10px solid #10b981; /* Strong indicator bar */
 }
 
-footer .social {
-  margin-bottom: 0.5rem;
-}
-
-footer .social a {
-  margin: 0 0.5rem;
-  color: white;
-  text-decoration: none;
-}
-
-footer .social a:hover {
-  color: #10b981;
+footer { 
+    background-color: #000000; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 2rem; 
+    margin-top: 2rem;
 }
