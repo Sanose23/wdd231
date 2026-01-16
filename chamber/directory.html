@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibadan Chamber Directory | Lawal Joseph</title>
+    <meta name="description" content="Business directory for the Ibadan Chamber of Commerce. Explore local Nigerian businesses.">
+    <meta name="author" content="Lawal Joseph">
+    
+    <meta property="og:title" content="Ibadan Chamber Directory">
+    <meta property="og:description" content="Official business directory for the city of Ibadan.">
+    <meta property="og:image" content="https://sanose23.github.io/wdd231/chamber/images/og-image.jpg">
+    <meta property="og:url" content="https://sanose23.github.io/wdd231/chamber/directory.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="images/logo.svg" alt="Ibadan Chamber Logo" class="logo">
+            <h1>Ibadan Chamber <span class="hide-mobile">of Commerce</span></h1>
+        </div>
+        <button id="menu" aria-label="Toggle Menu">☰</button>
+    </header>
+
+    <nav id="navElement">
+        <a href="../index.html">Home</a>
+        <a href="directory.html" class="active">Directory</a>
+        <a href="#">Join</a>
+        <a href="#">Discover</a>
+    </nav>
+
+    <main>
+        <div class="view-toggle">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </div>
+
+        <article id="directory-container" class="grid">
+            </article>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Ibadan Chamber of Commerce</strong></p>
+            <p>1 Cocoa House Way</p>
+            <p>Dugbe, Ibadan, Nigeria</p>
+            <p>info@ibadanchamber.org</p>
+            <p>+234 800 000 0000</p>
+        </div>
+        <div class="footer-social">
+            <p>Follow Us</p>
+            <div class="icons">
+                <a href="#">YouTube</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-info">
+            <p>WDD231 Class Project</p>
+            <p>Lawal Joseph</p>
+            <p>&copy; <span id="year"></span> Ibadan Chamber</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

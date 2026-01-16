@@ -1,0 +1,74 @@
+{
+  "members": [
+    {
+      "name": "Ibadan Tech Hub",
+      "tagline": "Innovating the Gateway to the North",
+      "address": "12 Ring Road, Ibadan, Oyo State",
+      "phone": "+234 801 234 5678",
+      "website": "https://ibadantech.ng",
+      "email": "info@ibadantech.ng",
+      "image": "images/member1.webp",
+      "membershipLevel": 3
+    },
+    {
+      "name": "Oyo Creative Agency",
+      "tagline": "Branding with Heritage",
+      "address": "45 Heritage Way, Ibadan",
+      "phone": "+234 802 345 6789",
+      "website": "https://oyocreative.com",
+      "email": "contact@oyocreative.com",
+      "image": "images/member2.webp",
+      "membershipLevel": 2
+    },
+    {
+      "name": "Lagos Logistics Ltd",
+      "tagline": "Swift Delivery Across Nigeria",
+      "address": "10 Lekki Phase 1, Lagos",
+      "phone": "+234 803 456 7890",
+      "website": "https://lagoslogistics.com",
+      "email": "ship@lagoslogistics.com",
+      "image": "images/member3.webp",
+      "membershipLevel": 1
+    },
+    {
+      "name": "Cocoa House Services",
+      "tagline": "Towering Excellence in Business",
+      "address": "Dugbe, Ibadan",
+      "phone": "+234 804 567 8901",
+      "website": "https://cocoahouse.net",
+      "email": "info@cocoahouse.net",
+      "image": "images/member4.webp",
+      "membershipLevel": 3
+    },
+    {
+      "name": "Amala Skies Catering",
+      "tagline": "Authentic Taste of the West",
+      "address": "Bodija Market Road, Ibadan",
+      "phone": "+234 805 678 9012",
+      "website": "https://amalaskies.com",
+      "email": "order@amalaskies.com",
+      "image": "images/member5.webp",
+      "membershipLevel": 2
+    },
+    {
+      "name": "Seven Hills Tech",
+      "tagline": "Software Solutions for the City",
+      "address": "7 Hill View, Ibadan",
+      "phone": "+234 806 789 0123",
+      "website": "https://sevenhills.ng",
+      "email": "dev@sevenhills.ng",
+      "image": "images/member6.webp",
+      "membershipLevel": 1
+    },
+    {
+      "name": "Oluyole Textiles",
+      "tagline": "Quality Fabrics Since 1980",
+      "address": "Industrial Estate, Ibadan",
+      "phone": "+234 807 890 1234",
+      "website": "https://oluyoletextiles.com",
+      "email": "sales@oluyoletextiles.com",
+      "image": "images/member7.webp",
+      "membershipLevel": 2
+    }
+  ]
+}
