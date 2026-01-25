@@ -1,4 +1,11 @@
 @media (min-width: 768px) {
+
+    .home-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .spotlights { grid-column: 1 / -1; }
+    #spotlight-cards { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; }
+    .hero, .hero img {
+     height: 400px;} /* Even shorter for wider screens */
+
     #menu { display: none; }
     nav { display: flex !important; flex-direction: row; justify-content: center; }
     nav a { width: 140px; border: none; }

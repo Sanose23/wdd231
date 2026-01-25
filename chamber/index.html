@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibadan Chamber of Commerce | Home</title>
+    <meta name="description" content="Welcome to the Ibadan Chamber of Commerce. Connecting businesses in the heart of Nigeria.">
+    <meta name="author" content="Lawal Joseph">
+    
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/home.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="images/logo.svg" alt="Ibadan Chamber Logo" class="logo">
+            <h1>Ibadan Chamber <span class="hide-mobile">of Commerce</span></h1>
+        </div>
+        <button id="menu" aria-label="Toggle Menu">☰</button>
+    </header>
+
+    <nav id="navElement">
+        <a href="index.html" class="active">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+        <a href="#">Discover</a>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 768px)">
+                <img src="images/hero-small.webp" alt="Ibadan Skyline" loading="eager">
+            </picture>
+            <div class="cta">
+                <h2>Empowering Ibadan's Economy</h2>
+                <a href="join.html" class="cta-btn">Join the Chamber</a>
+            </div>
+        </section>
+
+        <div class="home-grid">
+            <section class="card events">
+                <h3>Upcoming Events</h3>
+                <p><strong>Business Mixer:</strong> Nov 20, 6:00 PM</p>
+                <p><strong>Tech Expo:</strong> Ibadan Cultural Center, Dec 5</p>
+            </section>
+
+            <section class="card weather">
+                <section class="card weather">
+                <h3>Ibadan Weather</h3>
+                <div id="weather-info"></div> <hr>
+                <div id="forecast-info"></div> </section>
+            </section>
+
+            <section class="spotlights">
+                <h3>Member Spotlights</h3>
+                <div id="spotlight-cards"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Ibadan Chamber of Commerce</strong></p>
+            <p>1 Cocoa House Way, Dugbe, Ibadan</p>
+            <p>info@ibadanchamber.org</p>
+        </div>
+        <div class="footer-info">
+            <p>WDD231 Class Project | Lawal Joseph</p>
+            <p>&copy; <span id="year"></span> Ibadan Chamber | <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
