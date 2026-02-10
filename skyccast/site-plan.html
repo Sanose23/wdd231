@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Plan | SkyCast Adventures</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* 4. Color Schema Definition */
+            --primary-color: #0077B6; /* Pacific Sky Blue */
+            --secondary-color: #023E8A; /* Deep Ocean Blue */
+            --accent-color: #CAF0F8; /* Light Mist */
+            --text-color: #03045E; /* Midnight Navy */
+            --white: #ffffff;
+        }
+
+        /* 6. Typography Application */
+        body {
+            font-family: 'Roboto', sans-serif; /* Body Font */
+            color: var(--text-color);
+            background-color: var(--accent-color);
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Ubuntu', sans-serif; /* Heading Font */
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 5px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 1rem;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            color: var(--white);
+            border: none;
+        }
+
+        section {
+            background-color: var(--white);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .wireframe-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .wireframe-img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+
+        /* 5. Color Schema Use in Document is demonstrated by the styles above */
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SkyCast Adventures Site Plan</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Site Name</h2>
+            <p><strong>SkyCast Adventures</strong></p>
+            <p>Reason: The name combines "Sky" (weather focus) and "Cast" (forecasting), paired with "Adventures" to appeal to outdoor enthusiasts looking for their next excursion.</p>
+        </section>
+
+        <section>
+            <h2>Site Purpose</h2>
+            <p>SkyCast Adventures provides real-time weather data integrated with an activity recommendation engine. It helps users decide which outdoor hobby (hiking, cycling, photography) best fits the current environmental conditions and provides critical safety checklists for those conditions.</p>
+        </section>
+
+        <section>
+            <h2>Scenarios</h2>
+            <ul>
+                <li>"I want to go for a bike ride today, but I'm not sure if the wind speed is too high for safety. What does SkyCast recommend?"</li>
+                <li>"I have a free afternoon; what is the best outdoor activity to do right now based on the current temperature and UV index?"</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Color Schema</h2>
+            <p><strong>Primary Color:</strong> #0077B6 (Pacific Sky Blue) - Used for navigation backgrounds and primary buttons.</p>
+            <p><strong>Secondary Color:</strong> #023E8A (Deep Ocean Blue) - Used for headings and strong emphasis text.</p>
+            <p><strong>Accent Color:</strong> #CAF0F8 (Light Mist) - Used for page backgrounds to maintain a clean, airy feel.</p>
+        </section>
+
+        <section>
+            <h2>Typography</h2>
+            <p><strong>Ubuntu (Bold):</strong> Selected for all headings to provide a modern, tech-friendly brand identity.</p>
+            <p><strong>Roboto:</strong> Selected for body copy and checklists due to its high legibility on mobile devices.</p>
+        </section>
+
+        <section>
+            <h2>Wireframe</h2>
+            <div class="wireframe-container">
+                <h3>Mobile View</h3>
+                <p>[Description: A single-column layout featuring a prominent weather widget at the top, followed by vertically stacked activity cards.]</p>
+                <img src="mobile-wireframe.png" alt="Mobile Wireframe Layout" class="wireframe-img">
+                
+                <h3>Desktop View</h3>
+                <p>[Description: A multi-column layout with a horizontal navigation bar, a large weather hero section, and a 3-column grid for activity recommendations.]</p>
+                <img src="desktop-wireframe.png" alt="Desktop Wireframe Layout" class="wireframe-img">
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
