@@ -21,3 +21,45 @@
         align-items: start;
     }
 }
+
+/* Medium Screens */
+@media (min-width: 641px) {
+    .discover-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        grid-template-areas: 
+            "card0 card1" 
+            "card2 card3"
+            "card4 card5" 
+            "card6 card7";
+    }
+}
+
+/* Large Screens (Requirement 11 & 13) */
+@media (min-width: 1025px) {
+    .discover-grid {
+        grid-template-columns: repeat(4, 1fr);
+        /* Note: Cards will now span multiple columns/rows based on these names */
+        grid-template-areas: 
+            "card0 card0 card1 card2"
+            "card3 card4 card4 card2"
+            "card5 card6 card7 card7";
+        align-items: stretch;
+    }
+
+    /* Requirement: Card spans - this makes the layout interesting */
+    .card-0, .card-4, .card-7 { height: 100%; }
+
+    /* Hover effect for large screens only (Requirement 13) */
+    .discover-card figure {
+        overflow: hidden; /* Keeps the scaled image inside the card */
+    }
+
+    .discover-card img:hover {
+        filter: brightness(1.1) contrast(1.1);
+        transform: scale(1.05);
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+}

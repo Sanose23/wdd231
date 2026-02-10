@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Ibadan | Ibadan Chamber of Commerce</title>
+    <meta name="description" content="Discover the beautiful landmarks and demographics of Ibadan, Nigeria.">
+    <meta name="author" content="Lawal Joseph">
+    
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/discover.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="images/logo.svg" alt="Ibadan Chamber Logo" class="logo">
+            <h1>Ibadan Chamber <span class="hide-mobile">of Commerce</span></h1>
+        </div>
+        <button id="menu" aria-label="Toggle Menu">☰</button>
+    </header>
+
+    <nav id="navElement">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+        <a href="discover.html" class="active">Discover</a>
+    </nav>
+
+    <main>
+        <div id="visit-message" class="visit-banner"></div>
+        
+        <h1 class="discover-title">Discover Ibadan</h1>
+        <p class="discover-intro">Explore the landmarks that make Ibadan the heart of West African culture and commerce.</p>
+
+        <article class="discover-grid" id="attractions-container">
+            </article>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Ibadan Chamber of Commerce</strong></p>
+            <p>1 Cocoa House Way, Dugbe, Ibadan</p>
+            <p>info@ibadanchamber.org</p>
+        </div>
+        <div class="footer-info">
+            <p>WDD231 Class Project | Lawal Joseph</p>
+            <p>&copy; <span id="year"></span> Ibadan Chamber | <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
