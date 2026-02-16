@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Adventure | Contact Us</title>
+    <meta name="description" content="Contact SkyCast Adventures to learn more about our outdoor guides.">
+    <meta name="author" content="Your Name">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">☁️ SkyCast Adventures</div>
+        <button id="hamburger" aria-label="Menu">☰</button>
+        <nav id="primary-nav">
+            <a href="index.html">Home</a>
+            <a href="adventures.html">Adventures</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main class="form-container">
+        <h1>Contact Us</h1>
+        <p>Complete the form below to receive customized adventure alerts.</p>
+
+        <form method="get" action="thanks.html" class="adventure-form">
+            <label>First Name: 
+                <input type="text" name="first_name" required>
+            </label>
+            
+            <label>Email Address: 
+                <input type="email" name="user_email" required placeholder="you@example.com">
+            </label>
+
+            <label>Interested Adventure: 
+                <select name="adventure_type">
+                    <option value="hiking">Mountain Hiking</option>
+                    <option value="cycling">Coastal Cycling</option>
+                    <option value="water">Water Sports</option>
+                </select>
+            </label>
+
+            <label>Comments:
+                <textarea name="user_comments" rows="4"></textarea>
+            </label>
+
+            <button type="submit" class="btn-primary">Join the Adventure</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> SkyCast Adventures</p>
+        <p><a href="attributions.html">Attributions</a> | <a href="#">Video Link</a></p>
+    </footer>
+</body>
+</html>

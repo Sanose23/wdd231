@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCast Adventures | Home</title>
+    <meta name="description" content="Plan your outdoor adventures with real-time weather integration.">
+    <meta name="author" content="Your Name">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">☁️ SkyCast Adventures</div>
+        <button id="hamburger" aria-label="Menu">☰</button>
+        <nav id="primary-nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="adventures.html">Adventures</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>SkyCast Adventures</h1>
+            <p>Your weather-ready excursion guide.</p>
+            <button id="open-modal" class="btn-primary">Daily Safety Tips</button>
+        </section>
+
+        <section id="weather-box">
+        <h2>Current Adventure Weather</h2>
+        <div id="weather-info">Retrieving live data...</div>
+        </section>
+
+        <div id="adventure-grid"></div>
+
+        <dialog id="safety-modal">
+            <h3>Safety First!</h3>
+            <p>Always carry water and check the UV index before departure.</p>
+            <button id="close-modal">Got it!</button>
+        </dialog>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> SkyCast Adventures</p>
+        <p><a href="attributions.html">Attributions</a> | <a href="#">Video Link</a></p>
+    </footer>
+</body>
+</html>

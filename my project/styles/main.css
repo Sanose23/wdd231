@@ -1,0 +1,88 @@
+:root {
+    --primary: #0077B6;
+    --secondary: #023E8A;
+    --light: #CAF0F8;
+    --white: #ffffff;
+}
+
+body { font-family: 'Roboto', sans-serif; margin: 0; background-color: var(--light); }
+
+header { background: var(--primary); color: white; padding: 1rem; display: flex; justify-content: space-between; align-items: center; }
+
+nav a { color: white; text-decoration: none; margin-left: 15px; }
+nav a.active { border-bottom: 2px solid white; font-weight: bold; }
+
+#hamburger { display: none; font-size: 1.5rem; background: none; border: none; color: white; cursor: pointer; }
+
+#adventure-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px; }
+
+.card { background: var(--white); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 15px; }
+.card img { width: 100%; height: auto; border-radius: 5px; }
+
+@media (max-width: 600px) {
+    #hamburger { display: block; }
+    #primary-nav { display: none; flex-direction: column; width: 100%; }
+    #primary-nav.open { display: flex; }
+}
+
+dialog { border: none; border-radius: 10px; padding: 2rem; box-shadow: 0 0 15px rgba(0,0,0,0.2); }
+dialog::backdrop { background: rgba(0,0,0,0.5); }
+
+.form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+}
+
+.adventure-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.adventure-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.adventure-form input, 
+.adventure-form select, 
+.adventure-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.thanks-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 20px;
+}
+
+.confirmation-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    border-top: 5px solid var(--primary);
+}
+
+.data-display {
+    text-align: left;
+    background: var(--light);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.data-display p {
+    margin: 8px 0;
+    color: var(--secondary);
+}

@@ -1,0 +1,17 @@
+[
+  { "id": 1, "title": "Mountain Summit", "level": "Expert", "tempRange": "5°C - 15°C", "image": "https://picsum.photos/id/10/400/250", "desc": "High altitude hiking." },
+  { "id": 2, "title": "Forest Trail", "level": "Intermediate", "tempRange": "15°C - 22°C", "image": "https://picsum.photos/id/11/400/250", "desc": "Lush pine explorations." },
+  { "id": 3, "title": "Desert Trek", "level": "Expert", "tempRange": "25°C - 35°C", "image": "https://picsum.photos/id/12/400/250", "desc": "Arid landscape survival." },
+  { "id": 4, "title": "Coastal Run", "level": "Easy", "tempRange": "18°C - 24°C", "image": "https://picsum.photos/id/13/400/250", "desc": "Beachside morning jogging." },
+  { "id": 5, "title": "River Kayaking", "level": "Intermediate", "tempRange": "20°C - 28°C", "image": "https://picsum.photos/id/14/400/250", "desc": "Fast flowing water fun." },
+  { "id": 6, "title": "Lake Fishing", "level": "Easy", "tempRange": "15°C - 25°C", "image": "https://picsum.photos/id/15/400/250", "desc": "Peaceful morning catch." },
+  { "id": 7, "title": "Canyon Biking", "level": "Expert", "tempRange": "20°C - 30°C", "image": "https://picsum.photos/id/16/400/250", "desc": "Rugged terrain cycling." },
+  { "id": 8, "title": "Cave Exploring", "level": "Intermediate", "tempRange": "10°C - 18°C", "image": "https://picsum.photos/id/17/400/250", "desc": "Subterranean discovery." },
+  { "id": 9, "title": "Valley Camping", "level": "Easy", "tempRange": "12°C - 22°C", "image": "https://picsum.photos/id/18/400/250", "desc": "Under the stars." },
+  { "id": 10, "title": "Island Hopping", "level": "Easy", "tempRange": "25°C - 30°C", "image": "https://picsum.photos/id/19/400/250", "desc": "Tropical boat tours." },
+  { "id": 11, "title": "Snowshoeing", "level": "Intermediate", "tempRange": "-5°C - 5°C", "image": "https://picsum.photos/id/20/400/250", "desc": "Winter wonderland walk." },
+  { "id": 12, "title": "Cliff Diving", "level": "Expert", "tempRange": "22°C - 28°C", "image": "https://picsum.photos/id/21/400/250", "desc": "Adrenaline fueled leaps." },
+  { "id": 13, "title": "Meadow Picnic", "level": "Easy", "tempRange": "20°C - 25°C", "image": "https://picsum.photos/id/22/400/250", "desc": "Relaxing floral escape." },
+  { "id": 14, "title": "Stargazing", "level": "Easy", "tempRange": "10°C - 15°C", "image": "https://picsum.photos/id/23/400/250", "desc": "Astrophotography session." },
+  { "id": 15, "title": "Waterfall Hike", "level": "Intermediate", "tempRange": "18°C - 23°C", "image": "https://picsum.photos/id/24/400/250", "desc": "Scenic vertical water." }
+]
